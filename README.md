@@ -1,12 +1,48 @@
-# React + Vite
+# MillionaireReact
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Un quiz game ispirato a "Chi vuol essere milionario?" sviluppato in React.
 
-Currently, two official plugins are available:
+## Caratteristiche
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Interfaccia moderna e responsiva
+- Domande a scelta multipla con difficoltà crescente
+- Timer per ogni domanda
+- Punteggio finale e feedback all’utente
 
-## Expanding the ESLint configuration
+## Requisiti
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [Node.js](https://nodejs.org/) (consigliata la versione LTS)
+- [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/)
+
+## Installazione
+
+Clona il repository e installa le dipendenze:
+
+```bash
+git clone https://github.com/Markof87/MillionaireReact.git
+cd MillionaireReact
+npm install
+```
+
+## Avvio in modalità sviluppo
+
+```bash
+npm start
+```
+
+L’app sarà disponibile su [http://localhost:3000](http://localhost:3000).
+
+## Build per produzione
+
+```bash
+npm run build
+```
+
+## Struttura del progetto
+
+- `src/` — codice sorgente React
+- `public/` — file pubblici e HTML principale
+
+## Contribuire
+
+Pull request e suggerimenti sono benvenuti!
